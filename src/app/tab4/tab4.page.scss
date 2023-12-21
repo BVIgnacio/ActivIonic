@@ -1,0 +1,21 @@
+ion-col {
+    &.column-a {
+      order: 1; 
+    }
+  
+    &.column-b {
+      order: 2; 
+    }
+  }
+  
+  @media (min-width: 768px) {
+    ion-col {
+      &.column-a {
+        order: 2;
+      }
+  
+      &.column-b {
+        order: 1; 
+      }
+    }
+  }
